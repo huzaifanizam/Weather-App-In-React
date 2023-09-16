@@ -1,3 +1,7 @@
+<img src="./public/img/WithoutOutput.png" alt="GitHUB" align="center" >
+<img src="./public/img/EnterLocation.png" alt="GitHUB" align="center" >
+<img src="./public/img/OutputWeather.png" alt="GitHUB" align="center" >
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

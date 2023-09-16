@@ -8,7 +8,7 @@ const WeatherCard = ({weatherData})=> {
         <h2>{weatherData?.name}</h2>
         <h2>{weatherData?.sys?.country}</h2>
         <h3>  Humidity : {weatherData?.main?.humidity}</h3>
-        <h1>{weatherData?.main?.temp}</h1>
+        <h1>{weatherData?.main?.temp}°C</h1>
         <div class="sky">
             <div class="sun"></div>
             <div class="cloud">
@@ -17,7 +17,7 @@ const WeatherCard = ({weatherData})=> {
                 <div class="circle-medium"></div>
             </div>
         </div>
-        <h3><span>wind speed : { weatherData?.wind?.speed} <span class="dot">•••</span> <br /> weather: {weatherData?.weather[0]?.description}</span></h3>
+        <h3><span>wind speed : { weatherData?.wind?.speed} <span class="dot">••</span> &nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;   weather: {weatherData?.weather[0]?.description}</span></h3>
         {/* <div className='card'>
         City Name:{weatherData?.name}
         <br />

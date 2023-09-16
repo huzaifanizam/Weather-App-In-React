@@ -43,7 +43,7 @@ const Home = () => {
       </form> */}
       <div class="wrapper">
         <form onSubmit={SubmitHandeler}>
-          <label htmlFor="cityNameInput"> City Name </label>
+          <label htmlFor="cityNameInput"> <center> Weather Application </center> </label>
           <div class="input-box">
             <input
               type="text"
@@ -61,12 +61,9 @@ const Home = () => {
         </form>
       </div>
 
+      <br />
 
-      {weatherData ? (
-        <WeatherCard weatherData={weatherData} />
-      ) : (
-        <div>No Data</div>
-      )}
+      {weatherData ? ( <WeatherCard weatherData={weatherData} />) : (<div className="wrapper"> <center>Enter Your City Name First</center> </div>)}
     </div>
   );
 };

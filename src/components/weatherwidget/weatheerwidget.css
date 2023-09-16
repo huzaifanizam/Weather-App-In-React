@@ -174,8 +174,8 @@ h1 {
     float: right;
     color: #666;
     font-weight: 300;
-    font-size: 6.59375em;
-    line-height: .2em;
+    font-size: 86px     ;
+    /* line-height: .2em; */
     -webkit-animation: up 2s cubic-bezier(.39, 0, .38, 1) .2s;
 }
 
@@ -210,12 +210,13 @@ span span {
 
 .sky {
     position: relative;
-    margin-top: 72px;
+    margin-top: 35px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: #03A9F4;
     -webkit-animation: up 2s cubic-bezier(.39, 0, .38, 1) .2s;
+    margin-bottom: 30px;
 }
 
 .sun {
